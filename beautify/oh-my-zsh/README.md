@@ -14,11 +14,11 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 | **fetch** | `sh -c "$(fetch -o - https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
 
 ## THEMES
-- ### *https://github.com/ohmyzsh/ohmyzsh/wiki/Themes*
+- https://github.com/ohmyzsh/ohmyzsh/wiki/Themes  
 - ### Configruation
   In order to enable a theme, set ZSH_THEME to the name of the theme in your `~/.zshrc`, before sourcing Oh My Zsh; for example: ZSH_THEME=robbyrussell If you do not want any theme enabled, just set ZSH_THEME to blank: ZSH_THEME=""
 - ### Custom
-  #### 1、 Download theme file, such as...
-  #### 2、 Move theme file to `~/.oh-my-zsh/themes` directory.
-  #### 3、 Edit `~/.zshrc` configruation, set ZSH_THEME=your theme.
+  1、 Download theme file, such as [butterfly.zsh-theme](https://github.com/butterflydreams/Butterfly-LinuxOS_Tools/blob/257a40e9c13ecabcc46773e6d1f4f7cb7f7ab950/beautify/oh-my-zsh/butterfly.zsh-theme).  
+  2、 Move theme file to `~/.oh-my-zsh/themes` directory.  
+  3、 Edit `~/.zshrc` configruation, set ZSH_THEME=your theme.  
 
