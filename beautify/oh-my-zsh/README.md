@@ -24,5 +24,7 @@ Oh My Zsh is installed by running one of the following commands in your terminal
   4、 Touch the command `source ~/.zshrc` to make it effect.  
 
 ## PLUGINS
-- ### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#installation)
+- ### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#installation): Auto suggested completion.  
+  As you type, you’ll see a suggested completion come up in a faded gray color.  
+  If you hit the right arrow key, it will fill in the suggestion. If you hit tab, it will list more suggestions below it. Continue to hit tab to cycle thorough.
 
