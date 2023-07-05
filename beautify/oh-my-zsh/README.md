@@ -20,10 +20,9 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 - ### Customization
   1、 Download theme file, such as [butterfly.zsh-theme](./butterfly.zsh-theme).  
   2、 Move theme file to `~/.oh-my-zsh/themes` directory.  
-  3、 Edit `~/.zshrc` configruation, set ZSH_THEME=your theme. 
-  4、 Touch the command `source ~/.zshrc` to make it effect.
+  3、 Edit `~/.zshrc` configruation, set ZSH_THEME=your theme.  
+  4、 Touch the command `source ~/.zshrc` to make it effect.  
 
 ## PLUGINS
-- ### zsh-autosuggestions
-  How to install: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#installation
+- ### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#installation)
 
