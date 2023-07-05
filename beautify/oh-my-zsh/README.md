@@ -29,3 +29,8 @@ Oh My Zsh is installed by running one of the following commands in your terminal
   If you hit the right arrow key, it will fill in the suggestion. If you hit tab, it will list more suggestions below it. Continue to hit tab to cycle thorough.
 - ### [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh): Highlight commands.
   Fish shell-like syntax highlighting for Zsh.
+
+## FONTS
+1、Download recommend font **"Meslo LGM NF"** , from [nerdfonts](https://www.nerdfonts.com/) or [github](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip)   
+2、Install font `Meslo LG M Regular Nerd Font Complete.ttf`  
+3、Set the macOS/Linux OS terminal's font.
