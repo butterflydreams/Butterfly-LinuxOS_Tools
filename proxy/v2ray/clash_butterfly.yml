@@ -1,0 +1,46 @@
+proxies:
+  - name: <PROXY NAME>
+    type: vmess
+    server: <host>
+    port: <port>
+    uuid: <uuid>
+    alterId: 0
+    cipher: auto
+proxy-groups:
+  - name: AUTO
+    proxies:
+      - <PROXY NAME>
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: "300"
+  - name: PROXY
+    proxies:
+      - AUTO
+      - <PROXY NAME>
+    type: select
+rules:
+  - DOMAIN-SUFFIX,autonavi.com,REJECT
+  - DOMAIN-SUFFIX,tuxera.com,REJECT
+  - DOMAIN-SUFFIX,macpaw.com,REJECT
+  - DOMAIN-SUFFIX,obdev.at,REJECT
+  - DOMAIN-SUFFIX,devmate.com,REJECT
+  - DOMAIN-SUFFIX,v2ex.com,PROXY
+  - DOMAIN-SUFFIX,medium.com,PROXY
+  - DOMAIN-SUFFIX,archive.org,PROXY
+  - DOMAIN-SUFFIX,gstatic.com,PROXY
+  - DOMAIN-SUFFIX,ytimg.com,PROXY
+  - DOMAIN-SUFFIX,reddit.com,PROXY
+  - DOMAIN-SUFFIX,v2ray.com,PROXY
+  - DOMAIN-SUFFIX,v2fly.org,PROXY
+  - DOMAIN-SUFFIX,github.io,PROXY
+  - DOMAIN-SUFFIX,github.com,PROXY
+  - DOMAIN-SUFFIX,githubusercontent.com,PROXY
+  - DOMAIN-SUFFIX,blogspot.com,PROXY
+  - DOMAIN-SUFFIX,youtube.com,PROXY
+  - DOMAIN-SUFFIX,android.com,PROXY
+  - DOMAIN-SUFFIX,chrome.com,PROXY
+  - DOMAIN-KEYWORD,google,PROXY
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,DIRECT
